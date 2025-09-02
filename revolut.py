@@ -18,6 +18,7 @@ def wczytaj_dane(filepath):
         print("❌ Nieobsługiwany format pliku. Użyj .xlsx lub .csv")
         exit(1)
 
+
 def summarize_expenses(od, do, filepath):
     print("\n🔄 Przetwarzanie danych...")
 
